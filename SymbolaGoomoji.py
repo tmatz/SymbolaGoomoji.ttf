@@ -56,6 +56,10 @@ for g in DroidSans.glyphs():
     if -1 != font.findEncodingSlot(g.unicode):
         removes[g.unicode] = True
 
+# remain '>>' and '>' mark.
+removes[0x0bb] = False
+removes[0x203a] = False
+
 # copy unicode emoji to goomoji
 for g in font.glyphs():
     if g.unicode in mapping:
