@@ -1,7 +1,7 @@
 SymbolaGoomoji.ttf
 ==================
 
-Public domain font for Unicode emoji and Android internal goomoji.
+Free font for Unicode standard emoji and Android internal goomoji.
 
 Based on Symbola.ttf font.
 
